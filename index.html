@@ -8,6 +8,37 @@
   <title>Virtual keyboard</title>
 </head>
 <body>
-  <script src="script.js"></script>
+  <!--
+  <div id="keyboard">
+      <div class="keyboard__keys">
+          <button type="button" class="keyboard__key">a</button>
+          <button type="button" class="keyboard__key keyboard__key--wide">
+              <i class="icon material-icons">backspace</i>
+          </button>
+          <button type="button" class="keyboard__key keyboard__key--extra-wide">
+              <i class="icon material-icons">space_bar</i>
+          </button>
+          <button type="button" class="keyboard__key keyboard__key--wide keyboard__key--activatable">
+              <i class="icon material-icons">keyboard_capslock</i>
+          </button>
+          <button type="button" class="keyboard__key keyboard__key--dark">
+              <i class="icon material-icons">check_circle</i>
+          </button>
+      </div>
+  </div>
+--> 
+
+  <input type="text" placeholder="username">
+  <input type="password" placeholder="password">
+  <textarea></textarea>
+
+  <script src="./src/js/virtual-keyboard.js"></script>
+  <script>
+      Keyboard({
+          lang: 'en',
+          charsOnly: false,
+          caps: false
+      }).init();
+  </script>
 </body>
 </html>
