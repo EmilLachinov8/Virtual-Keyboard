@@ -1,0 +1,133 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #c8f5e0;
+  background-size: 400% 400%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 77em;
+  min-height: 50em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.textarea {
+  margin-bottom: 1em;
+  height: 5em;
+  box-sizing: border-box;
+  padding: 1em;
+  font-size: 2em;
+  color: #303632;
+  overflow: auto;
+  border-radius: 1em;
+  border: 0.1em solid #303632;
+  background: #eaf1eb;
+}
+
+.textarea:focus {
+  outline: none;
+}
+
+.switch {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  color: #303632;
+}
+
+.switch span {
+  padding: 1em;
+  background: #4f855f;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1;
+  color: #303632;
+  border: 0.1em solid #303632;
+  border-radius: 0.5em;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  background: rgba(98, 255, 145, 0.9176470588);
+  border: 0.1em solid #303632;
+  border-radius: 0.5em;
+  padding: 2px;
+}
+
+.keyboard__button {
+  margin: 4px;
+  height: 3em;
+  padding-top: 1em;
+  background: #4f855f;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #303632;
+  border: 0.1em solid #303632;
+  border-radius: 0.5em;
+  transition: all 0.2s;
+  user-select: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif Verdana, sans-serif;
+}
+
+.keyboard__button:hover {
+  background: #a9d11a;
+}
+
+.keyboard__button_active {
+  transform: scale(0.8);
+  transform-origin: center;
+  background: #a9d11a;
+  color: #547c4a;
+}
+
+.keyboard__button_capslock_active {
+  color: #547c4a;
+  text-decoration: outline;
+  text-transform: uppercase;
+}
+
+.keyboard__button_width_100 {
+  width: 3em;
+}
+
+.keyboard__button_width_125 {
+  width: 3.75em;
+  flex-grow: 1;
+}
+
+.keyboard__button_width_150 {
+  width: 4.5em;
+  flex-grow: 1;
+}
+
+.keyboard__button_width_175 {
+  width: 5.25em;
+  flex-grow: 1;
+}
+
+.keyboard__button_width_200 {
+  width: 6em;
+  flex-grow: 1;
+}
+
+.keyboard__button_width_700 {
+  width: 21em;
+  flex-grow: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
