@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/EmilLachinov8/Virtual-Keyboard#readme",
   "dependencies": {
-    "eslint": "^8.39.0",
     "sass": "^1.62.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-plugin-import": "^2.27.5"
   }
 }
