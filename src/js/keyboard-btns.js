@@ -1,7 +1,7 @@
 const KEYBOARD_BTNS = {
   Backquote: {
     keyCode: 192,
-    key: { normal:  { en: '`', ru: 'ё' }, shiftOn: { en: '~', ru: 'Ё' } },
+    key: { normal: { en: '`', ru: 'ё' }, shiftOn: { en: '~', ru: 'Ё' } },
     type: 'print',
     width: '100',
   },
